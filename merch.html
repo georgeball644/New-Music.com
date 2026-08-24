@@ -3,264 +3,57 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
-
     <link rel="stylesheet" href="./global.css" />
     <link rel="stylesheet" href="./index.css" />
-    <link
-      rel="stylesheet"
-      href="https://googleapis.com"
-    />
+    <link rel="stylesheet" href="https://googleapis.com" />
+    <style>
+      .playlist-cover-image, .image-icon4, .image-icon7 { object-fit: cover; border-radius: 8px; }
+      #item1Container, #item6Container, #sidebarHome, #sidebarLogo { cursor: pointer; }
+    </style>
   </head>
   <body>
     <div class="merch">
       <section class="sidebar">
-        <h3 class="title" id="sidebarTitleLogo" style="cursor: pointer;">New-Music.com</h3>
+        <h3 class="title" id="sidebarLogo">New-Music.com</h3>
         <div class="list">
-          <div class="menu-item">
-            <div class="discover">Discover</div>
-          </div>
-          <button class="menu-item2" id="sidebarHomeBtn">
-            <img
-              class="home-icon"
-              loading="lazy"
-              alt=""
-              src="./public/home.svg"
-            />
-
-            <div class="home">Home</div>
-          </button>
-          <button class="menu-item3">
-            <img
-              class="home-icon"
-              loading="lazy"
-              alt=""
-              src="./public/search.svg"
-            />
-
-            <div class="home">Browse</div>
-          </button>
-          <button class="menu-item3">
-            <img
-              class="home-icon"
-              loading="lazy"
-              alt=""
-              src="./public/radio.svg"
-            />
-
-            <div class="home">Discover</div>
-          </button>
-        </div>
-        <div class="list2">
-          <div class="title2">
-            <div class="discover">Library</div>
-          </div>
-          <button class="menu-item3">
-            <img
-              class="home-icon"
-              loading="lazy"
-              alt=""
-              src="./public/list.svg"
-            />
-
-            <div class="home">Playlists</div>
-          </button>
-          <button class="menu-item3">
-            <img
-              class="home-icon"
-              loading="lazy"
-              alt=""
-              src="./public/music.svg"
-            />
-
-            <div class="home">Songs</div>
-          </button>
-          <button class="menu-item3">
-            <img
-              class="home-icon"
-              loading="lazy"
-              alt=""
-              src="./public/smile.svg"
-            />
-
-            <div class="home">Personalized picks</div>
-          </button>
+          <button class="menu-item2" id="sidebarHome"><div class="home">Home</div></button>
         </div>
       </section>
       <main class="main-content">
         <div class="top-header-row">
           <div class="title3">
-            <h1 class="playlist-section-title">
-              Charli XCX “Music, Fashion, Film” out now!
-            </h1>
-            <div class="releases-24th-of">Releases 24th of July!</div>
+            <h1 class="playlist-section-title">Official Merchandise Store</h1>
+            <div class="releases-24th-of">Shop Limited Vinyls & Music Products</div>
           </div>
           <div class="segmented-control">
             <div class="segmented-control2">
-              <div class="item-1" id="item1Container" style="cursor: pointer;">
-                <div class="music">Music</div>
-              </div>
-              <div class="item-3" style="background-color: var(--color-white);">
-                <div class="music">Merch</div>
-              </div>
-              <div class="item-6" id="item6Container" style="cursor: pointer;">
-                <div class="music">Tours</div>
-              </div>
+              <div class="item-1" id="item1Container"><div class="music">Music</div></div>
+              <div class="item-3" style="background-color: var(--color-white);"><div class="music">Merch</div></div>
+              <div class="item-6" id="item6Container"><div class="music">Tours</div></div>
             </div>
           </div>
         </div>
         <section class="large-grid">
           <div class="card">
-            <img
-              class="playlist-cover-image"
-              alt=""
-              src="./public/Playlist-cover-image@2x.png"
-          />
-
-            <div class="copy">
-              <h3 class="ariana-grande">Music, Fashion, Film</h3>
-            </div>
+            <img class="playlist-cover-image" src="https://wikimedia.org" />
+            <div class="copy"><h3 class="ariana-grande">Brat Special Vinyl - £32.99</h3></div>
           </div>
           <div class="card">
-            <img
-              class="playlist-cover-image"
-              alt=""
-              src="./public/Image@2x.png"
-            />
-
-            <div class="copy">
-              <h3 class="ariana-grande">Petal</h3>
-            </div>
+            <img class="playlist-cover-image" src="https://wikimedia.org" />
+            <div class="copy"><h3 class="ariana-grande">Petal Limited Hoodie - £45.00</h3></div>
           </div>
           <div class="card">
-            <img
-              class="playlist-cover-image"
-              alt=""
-              src="./public/Image@2x.png"
-            />
-
-            <div class="copy">
-              <h3 class="ariana-grande">Short n' Sweet</h3>
-            </div>
-          </div>
-          <div class="card4">
-            <img
-              class="playlist-cover-image"
-              alt=""
-              src="./public/Image@2x.png"
-            />
-
-            <div class="copy">
-              <div class="sabrina-carpenter">
-                Kiss All The Time. Disco, Occasionally
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="vma-section">
-          <div class="title4">
-            <h2 class="vma-nominees">VMA Nominee's</h2>
-            <div class="releases-24th-of">Vote at https://mtv.com</div>
-          </div>
-          <div class="small-grid">
-            <div class="card">
-              <img
-                class="image-icon4"
-                loading="lazy"
-                alt=""
-                src="./public/Image@2x.png"
-              />
-
-              <div class="copy">
-                <h3 class="ariana-grande">Ariana Grande</h3>
-                <div class="nominated-for-7">Nominated for 7 awards</div>
-              </div>
-            </div>
-            <div class="card">
-              <img
-                class="image-icon4"
-                loading="lazy"
-                alt=""
-                src="./public/Image@2x.png"
-              />
-
-              <div class="copy">
-                <h3 class="ariana-grande">Madonna</h3>
-                <div class="nominated-for-7">Nominated for 11 awards</div>
-              </div>
-            </div>
-            <div class="card">
-              <img
-                class="image-icon4"
-                loading="lazy"
-                alt=""
-                src="./public/Image@2x.png"
-              />
-
-              <div class="copy">
-                <h3 class="ariana-grande">Bruno Mars</h3>
-                <div class="nominated-for-5">Nominated for 5 awards</div>
-              </div>
-            </div>
-            <div class="album4">
-              <img
-                class="image-icon7"
-                loading="lazy"
-                alt=""
-                src="./public/Image@2x.png"
-              />
-
-              <div class="copy">
-                <div class="sabrina-carpenter">Sabrina Carpenter</div>
-                <div class="nominated-for-5">Nominated for 7 awards</div>
-              </div>
-            </div>
-            <div class="album4">
-              <img
-                class="image-icon4"
-                loading="lazy"
-                alt=""
-                src="./public/Image@2x.png"
-              />
-
-              <div class="copy">
-                <h3 class="taylor-swift">Taylor Swift</h3>
-                <div class="nominated-for-9">Nominated for 9 awards</div>
-              </div>
-            </div>
-            <div class="card">
-              <img
-                class="image-icon4"
-                loading="lazy"
-                alt=""
-                src="./public/Image@2x.png"
-              />
-
-              <div class="copy">
-                <h3 class="ariana-grande">Harry Styles</h3>
-                <div class="nominated-for-5">Nominated for 1 award</div>
-              </div>
-            </div>
+            <img class="playlist-cover-image" src="https://wikimedia.org" />
+            <div class="copy"><h3 class="ariana-grande">Short n' Sweet Vinyl - £29.99</h3></div>
           </div>
         </section>
       </main>
     </div>
-
     <script>
-      // Back to Home
-      document.getElementById("item1Container").addEventListener("click", function() {
-        window.location.href = "./index.html";
-      });
-      document.getElementById("sidebarHomeBtn").addEventListener("click", function() {
-        window.location.href = "./index.html";
-      });
-      document.getElementById("sidebarTitleLogo").addEventListener("click", function() {
-        window.location.href = "./index.html";
-      });
-
-      // To Tours
-      document.getElementById("item6Container").addEventListener("click", function() {
-        window.location.href = "./tours.html";
-      });
+      document.getElementById("item1Container").addEventListener("click", function() { window.location.href = "./index.html"; });
+      document.getElementById("sidebarHome").addEventListener("click", function() { window.location.href = "./index.html"; });
+      document.getElementById("sidebarLogo").addEventListener("click", function() { window.location.href = "./index.html"; });
+      document.getElementById("item6Container").addEventListener("click", function() { window.location.href = "./tours.html"; });
     </script>
   </body>
 </html>
