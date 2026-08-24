@@ -10,8 +10,7 @@
       .tab-view { display: none; width: 100%; height: 100%; position: absolute; top: 0; left: 0; }
       #music-view { display: block; } 
       #musicTabBtn, #item3Container, #toursTabContainer, #musicTabBtn_m, #item3Container_m, #item6Container_m, #musicText_t, #merchText_t, #toursTabContainer_t { cursor: pointer; }
-      .image-icon, .image-icon4, .playlist-cover-image, .image-icon7 { object-fit: cover; border-radius: 8px; width: 100%; height: 100%; display: block; }
-      .title, .title2, .title4 { position: relative; width: 100%; margin-bottom: 15px; clear: both; z-index: 10; }
+      .image-icon, .image-icon4, .playlist-cover-image, .image-icon7 { object-fit: cover; border-radius: 8px; width: 100% !important; height: 100% !important; display: block; }
     </style>
   </head>
   <body>
@@ -20,21 +19,21 @@
       <!-- 1. MUSIC VIEW -->
       <div id="music-view" class="tab-view">
         <section class="small-grid">
-          <div class="album"><img class="image-icon" src="https://genius.com" /><div class="copy"><h3 class="ariana-grande">Ariana Grande</h3><div class="nominated-for-7">Nominated for 7 awards</div></div></div>
-          <div class="album"><img class="image-icon" src="https://scdn.co" /><div class="copy"><h3 class="ariana-grande">Madonna</h3><div class="nominated-for-7">Nominated for 11 awards</div></div></div>
-          <div class="album3"><img class="image-icon" src="https://scdn.co" /><div class="copy"><h3 class="ariana-grande">Bruno Mars</h3><div class="nominated-for-5">Nominated for 5 awards</div></div></div>
-          <div class="album3"><img class="image-icon4" src="https://scdn.co" /><div class="copy"><div class="sabrina-carpenter">Sabrina Carpenter</div><div class="nominated-for-5">Nominated for 7 awards</div></div></div>
-          <div class="album3"><img class="image-icon" src="https://scdn.co" /><div class="copy"><h3 class="taylor-swift">Taylor Swift</h3><div class="nominated-for-9">Nominated for 9 awards</div></div></div>
-          <div class="album3"><img class="image-icon" src="https://scdn.co" /><div class="copy"><h3 class="ariana-grande">Harry Styles</h3><div class="nominated-for-5">Nominated for 1 award</div></div></div>
+          <div class="album"><img class="image-icon" src="https://genius.com" /><div class="copy"><h3>Ariana Grande</h3><div>Nominated for 7 awards</div></div></div>
+          <div class="album"><img class="image-icon" src="https://scdn.co" /><div class="copy"><h3>Madonna</h3><div>Nominated for 11 awards</div></div></div>
+          <div class="album3"><img class="image-icon" src="https://scdn.co" /><div class="copy"><h3>Bruno Mars</h3><div>Nominated for 5 awards</div></div></div>
+          <div class="album3"><img class="image-icon4" src="https://scdn.co" /><div class="copy"><div>Sabrina Carpenter</div><div>Nominated for 7 awards</div></div></div>
+          <div class="album3"><img class="image-icon" src="https://scdn.co" /><div class="copy"><h3>Taylor Swift</h3><div>Nominated for 9 awards</div></div></div>
+          <div class="album3"><img class="image-icon" src="https://scdn.co" /><div class="copy"><h3>Harry Styles</h3><div>Nominated for 1 award</div></div></div>
         </section>
-        <div class="title"><h2 class="vma-nominees">VMA Nominee's</h2><div class="vote-at-httpsvotemtvcom">Vote at https://mtv.com</div></div>
+        <div class="title"><h2 class="vma-nominees">VMA Nominee's</h2><div>Vote at https://mtv.com</div></div>
         <section class="large-grid">
           <div class="card"><img class="playlist-cover-image" src="https://wikimedia.org" /><div class="copy"><h3>Music, Fashion, Film</h3><div class="critics-say-music">Critics say “Music, Fashion, Film is exactly like Brat’s goth sister.”</div></div></div>
           <div class="card"><img class="playlist-cover-image" src="https://wikimedia.org" /><div class="copy"><h3>Petal</h3><div class="critics-say-music">Just 2 years after hit album Eternal Sunshine, Ariana Grande releases Petal.</div></div></div>
           <div class="card"><img class="playlist-cover-image" src="https://wikimedia.org" /><div class="copy"><h3>Short n' Sweet</h3><div class="today-is-the">Today is the 2 year anniversary of pop star Sabrina Carpenter’s Album Short n' Sweet.</div></div></div>
           <div class="card"><img class="playlist-cover-image" src="https://wikimedia.org_–_Kiss_All_the_Time._Disco%2C_Occasionally_%28album_cover%29.png" /><div class="copy"><div>Kiss All The Time. Disco, Occasionally</div><div class="after-3-year">After 3 year break Harry Styles announces his 4th studio album Kiss All The Time. Disco, Occasionally</div></div></div>
         </section>
-        <div class="title2" style="margin-top: 20px;"><h1 class="playlist-section-title">Charli XCX “Music, Fashion, Film” out now!</h1><div class="vote-at-httpsvotemtvcom">Releases 24th of July!</div></div>
+        <div class="title2"><h1 class="playlist-section-title">Charli XCX “Music, Fashion, Film” out now!</h1><div>Releases 24th of July!</div></div>
         <div class="navigation"><div class="segmented-control"><nav class="segmented-control2">
           <div class="item-1" id="musicTabBtn"><div class="music2">Music</div></div>
           <div class="item-3" id="item3Container"><div class="merch" id="merchText">Merch</div></div>
@@ -42,50 +41,52 @@
         </nav></div></div>
       </div>
 
-      <!-- PASTE PART 2 CODE IMMEDIATELY DIRECTLY BELOW THIS LINE -->
       <!-- 2. MERCH VIEW -->
       <div id="merch-view" class="tab-view">
-        <main class="main-content" style="position: absolute; left: 256px; top: 0; width: calc(100% - 256px); height: 100%; padding: 39px 30px 0px; box-sizing: border-box;">
-          <div class="top-header-row"><div class="title3"><h1 class="playlist-section-title">Charli XCX “Music, Fashion, Film” out now!</h1><div class="releases-24th-of">Releases 24th of July!</div></div>
-            <div class="segmented-control" style="position: static; margin-left: auto;"><div class="segmented-control2">
+        <main class="main-content" style="position: absolute; left: 256px; top: 0; width: calc(100% - 256px); height: 100%; padding: 39px 30px; box-sizing: border-box;">
+          <div class="top-header-row">
+            <div class="title3"><h1>Official Merchandise Store</h1><div>Shop Vinyls, Hoodies & Accessories</div></div>
+            <div class="segmented-control" style="margin-left: auto;"><div class="segmented-control2">
                 <div class="item-1" id="musicTabBtn_m"><div class="music">Music</div></div>
-                <div class="item-3" id="item3Container_m" style="background-color: var(--color-white); box-shadow: 0 1px 2px rgba(0,0,0,0.05); border-radius: var(--br-4);"><div class="music" style="font-weight: 600;">Merch</div></div>
+                <div class="item-3" id="item3Container_m" style="background-color: var(--color-white); border-radius: var(--br-4);"><div class="music" style="font-weight: 600;">Merch</div></div>
                 <div class="item-6" id="item6Container_m"><div class="music">Tours</div></div>
             </div></div>
           </div>
           <section class="large-grid" style="width: 100%; margin-top: 24px;">
-            <div class="card"><img class="playlist-cover-image" src="https://wikimedia.org" /><div class="copy"><h3>Music, Fashion, Film</h3></div></div>
-            <div class="card"><img class="playlist-cover-image" src="https://wikimedia.org" /><div class="copy"><h3>Petal</h3></div></div>
-            <div class="card"><img class="playlist-cover-image" src="https://wikimedia.org" /><div class="copy"><h3>Short n' Sweet</h3></div></div>
+            <div class="card"><img class="playlist-cover-image" src="https://wikimedia.org" /><div class="copy"><h3>Brat Limited Vinyl - £32.99</h3></div></div>
+            <div class="card"><img class="playlist-cover-image" src="https://wikimedia.org" /><div class="copy"><h3>Eternal Sunshine Hoodie - £45.00</h3></div></div>
+            <div class="card"><img class="playlist-cover-image" src="https://wikimedia.org" /><div class="copy"><h3>Short n' Sweet Vinyl - £29.99</h3></div></div>
           </section>
         </main>
       </div>
 
       <!-- 3. TOURS VIEW -->
       <div id="tours-view" class="tab-view">
-        <main class="main-content" style="position: absolute; left: 256px; top: 0; width: calc(100% - 256px); height: 100%; padding: 1.9px 30px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center;">
-          <section class="main-content2" style="width: 100%;">
-            <div class="header-row"><div class="title3"><h1 class="playlist-section-title">Charli XCX “Music, Fashion, Film” out now!</h1><div class="releases-24th-of">Releases 24th of July!</div></div>
-              <div class="navigation" style="position: static; margin-left: auto;"><div class="segmented-control"><nav class="segmented-control2">
+        <main class="main-content" style="position: absolute; left: 256px; top: 0; width: calc(100% - 256px); height: 100%; padding: 39px 30px; box-sizing: border-box;">
+          <div class="header-row" style="display: flex; align-items: center;">
+            <div class="title3"><h1>Upcoming Live Concerts</h1><div>Book Tickets & Tour Dates</div></div>
+            <div class="navigation" style="margin-left: auto;"><div class="segmented-control"><nav class="segmented-control2">
                     <div class="item-1" id="musicText_t"><div class="music">Music</div></div>
                     <div class="item-3" id="merchText_t"><div class="music">Merch</div></div>
-                    <div class="item-6" id="toursTabContainer_t" style="background-color: var(--color-white); box-shadow: 0 1px 2px rgba(0,0,0,0.05); border-radius: var(--br-4);"><div class="tours">Tours</div></div>
-              </nav></div></div>
-            </div>
+                    <div class="item-6" id="toursTabContainer_t" style="background-color: var(--color-white); border-radius: var(--br-4);"><div class="tours">Tours</div></div>
+            </nav></div></div>
+          </div>
+          <section class="large-grid" style="width: 100%; margin-top: 24px;">
+            <div class="card"><img class="playlist-cover-image" src="https://wikimedia.org_–_Kiss_All_the_Time._Disco%2C_Occasionally_%28album_cover%29.png" /><div class="copy"><h3>London O2 Arena</h3><div>July 24, 2026</div></div></div>
+            <div class="card"><img class="playlist-cover-image" src="https://wikimedia.org" /><div class="copy"><h3>Manchester AO Arena</h3><div>August 12, 2026</div></div></div>
           </section>
         </main>
       </div>
 
-      <!-- IMMUTABLE SHARED FIXED SIDEBAR -->
+      <!-- SHARED FIXED MAIN SIDEBAR -->
       <section class="sidebar" style="z-index: 100;">
         <h3 class="title3" id="sidebarLogoLink" style="cursor: pointer;">New-Music.com</h3>
         <div class="list">
-          <div class="menu-item"><div class="discover">Discover</div></div>
           <button class="menu-item2" id="sidebarHomeGlobalBtn"><img class="home-icon" src="./public/home.svg" /><div class="home">Home</div></button>
         </div>
       </section>
 
-      <!-- Routing Script Engine Logic -->
+      <!-- Central Routing Engine Logic Script -->
       <script>
         function activateTab(t){
           document.querySelectorAll('.tab-view').forEach(v=>v.style.display='none');
@@ -103,6 +104,7 @@
           if(el) el.addEventListener("click",function(){ activateTab(r.t); });
         });
       </script>
+
     </div>
   </body>
 </html>
