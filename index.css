@@ -1,0 +1,611 @@
+.music {
+  width: 100%;
+  height: 960px;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 34px;
+  color: var(--Text-Primary);
+  font-family: var(--font-inter);
+}
+.album,
+.small-grid {
+  display: flex;
+  align-items: flex-start;
+}
+.small-grid {
+  position: absolute;
+  top: 692px;
+  left: 336px;
+  width: 1024px;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: var(--gap-32);
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--fs-20);
+  color: var(--Text-Primary);
+  font-family: var(--font-inter);
+}
+.album {
+  width: 144px;
+  flex-direction: column;
+  gap: var(--gap-12);
+}
+.image-icon {
+  align-self: stretch;
+  height: var(--height-144);
+  position: relative;
+  border-radius: var(--br-8);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.copy {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.ariana-grande,
+.nominated-for-7 {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ariana-grande {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.nominated-for-7 {
+  height: 47px;
+  font-size: var(--fs-16);
+  color: var(--color-darkslategray);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.album3 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-12);
+  min-width: var(--min-w-72);
+}
+.image-icon4,
+.nominated-for-5 {
+  align-self: stretch;
+  position: relative;
+  overflow: hidden;
+}
+.nominated-for-5 {
+  font-size: var(--fs-16);
+  line-height: 150%;
+  color: var(--color-darkslategray);
+  display: -webkit-inline-box;
+  align-items: center;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.image-icon4 {
+  height: 140px;
+  border-radius: var(--br-8);
+  max-width: 100%;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.sabrina-carpenter,
+.taylor-swift {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.sabrina-carpenter {
+  display: -webkit-inline-box;
+  align-items: center;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.taylor-swift {
+  margin: 0;
+  align-self: stretch;
+  font-size: inherit;
+  font-family: inherit;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nominated-for-9,
+.title {
+  display: flex;
+  flex-shrink: 0;
+}
+.nominated-for-9 {
+  width: 151px;
+  height: 47px;
+  position: relative;
+  font-size: var(--fs-16);
+  line-height: 150%;
+  color: var(--color-darkslategray);
+  align-items: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 151px;
+}
+.title {
+  position: absolute;
+  top: 591px;
+  left: 336px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-8);
+}
+.vma-nominees {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 110%;
+  font-weight: 600;
+  font-family: inherit;
+}
+.vote-at-httpsvotemtvcom {
+  position: relative;
+  font-size: var(--fs-16);
+  line-height: 150%;
+  color: var(--color-darkslategray);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.card,
+.large-grid {
+  display: flex;
+  align-items: flex-start;
+}
+.large-grid {
+  position: absolute;
+  top: calc(50% - 283px);
+  right: 80px;
+  width: 1024px;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: var(--gap-32);
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--fs-20);
+  color: var(--Text-Primary);
+  font-family: var(--font-inter);
+}
+.card {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-12);
+  min-width: 116px;
+}
+.playlist-cover-image {
+  align-self: stretch;
+  height: 232px;
+  position: relative;
+  border-radius: var(--br-8);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.music-fashion-film {
+  margin: 0;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  font-size: var(--fs-32);
+  letter-spacing: -0.04em;
+  line-height: 100%;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--Text-Primary);
+  text-align: left;
+  display: inline-block;
+  width: 122px;
+}
+.critics-say-music {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--fs-16);
+  line-height: 150%;
+  color: var(--color-darkslategray);
+  display: -webkit-inline-box;
+  align-items: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.petal,
+.short-n-sweet {
+  margin: 0;
+  position: absolute;
+  font-size: var(--fs-32);
+  letter-spacing: -0.04em;
+  line-height: 100%;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  text-align: left;
+  display: inline-block;
+}
+.petal {
+  top: 20px;
+  left: 19px;
+  color: var(--color-dimgray);
+  width: 72px;
+  min-width: var(--min-w-72);
+}
+.short-n-sweet {
+  top: 16px;
+  left: 16px;
+  color: var(--color-white);
+  width: 209px;
+}
+.today-is-the {
+  position: relative;
+  font-size: var(--fs-16);
+  line-height: 150%;
+  color: var(--color-darkslategray);
+  display: -webkit-inline-box;
+  align-items: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  min-width: 239px;
+  flex-shrink: 0;
+}
+.kiss-all-the-container {
+  margin: 0;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  font-size: var(--fs-32);
+  letter-spacing: -0.04em;
+  line-height: 100%;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  text-align: left;
+  display: inline-block;
+  width: 216px;
+}
+.kiss-all-the,
+.span {
+  color: var(--color-palevioletred);
+  line-height: 100%;
+}
+.span {
+  color: var(--color-white);
+}
+.disco-occasionally {
+  color: var(--color-steelblue);
+  line-height: 100%;
+}
+.after-3-year {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--fs-16);
+  line-height: 150%;
+  color: var(--color-darkslategray);
+  display: -webkit-inline-box;
+  align-items: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+.title2 {
+  position: absolute;
+  top: 96px;
+  left: 336px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-8);
+  flex-shrink: 0;
+}
+.playlist-section-title {
+  margin: 0;
+  height: 37px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 110%;
+  font-weight: 600;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+}
+.sidebar {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+  border-right: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  width: 256px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 23.9px 7px;
+  gap: 24px;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--fs-16);
+  color: var(--Text-Primary);
+  font-family: var(--font-inter);
+}
+.title3 {
+  margin: 0;
+  width: 100%;
+  position: relative;
+  font-size: var(--fs-20);
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 212px;
+}
+.list,
+.menu-item {
+  align-self: stretch;
+  display: flex;
+}
+.list {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+.menu-item {
+  height: var(--height-40);
+  border-radius: var(--br-8);
+  align-items: center;
+  padding: var(--padding-0) var(--padding-16);
+  box-sizing: border-box;
+}
+.discover {
+  flex: 1;
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+}
+.menu-item2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-0) var(--padding-16);
+  background-color: var(--color-whitesmoke);
+  align-self: stretch;
+  height: var(--height-40);
+  border-radius: var(--br-8);
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  gap: var(--gap-16);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+}
+.menu-item2:hover {
+  background-color: var(--color-gainsboro-300);
+}
+.home-icon {
+  height: var(--height-24);
+  width: var(--width-24);
+  position: relative;
+}
+.home {
+  flex: 1;
+  position: relative;
+  font-size: var(--fs-16);
+  line-height: 150%;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--Text-Primary);
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.menu-item3 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-0) var(--padding-16);
+  background-color: var(--color-white);
+  height: var(--height-40);
+  border-radius: var(--br-8);
+  align-items: center;
+  box-sizing: border-box;
+  gap: var(--gap-16);
+}
+.menu-item3:hover {
+  background-color: var(--color-gainsboro-100);
+}
+.list2,
+.menu-item3,
+.title4 {
+  align-self: stretch;
+  display: flex;
+}
+.list2 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-8);
+}
+.title4 {
+  align-items: center;
+  padding: var(--padding-0) var(--padding-16);
+}
+.navigation {
+  position: absolute;
+  width: calc(100% - 416px);
+  top: 96px;
+  right: -699px;
+  left: 1115px;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.segmented-control {
+  height: var(--height-40);
+  align-items: flex-start;
+  padding: var(--padding-0) 20px var(--padding-0) var(--padding-0);
+}
+.item-1,
+.segmented-control,
+.segmented-control2 {
+  display: flex;
+  box-sizing: border-box;
+}
+.segmented-control2 {
+  margin: 0;
+  height: var(--height-40);
+  border-radius: var(--br-8);
+  background-color: var(--color-whitesmoke);
+  align-items: flex-start;
+  padding: 4px;
+  text-align: left;
+  font-size: var(--fs-16);
+  color: var(--Text-Primary);
+  font-family: var(--font-inter);
+}
+.item-1 {
+  height: var(--height-32);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: var(--br-4);
+  background-color: var(--color-white);
+  align-items: center;
+  padding: var(--padding-0) 11px;
+  flex-shrink: 0;
+}
+.music2 {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.item-3 {
+  height: var(--height-32);
+  border-radius: var(--br-4);
+  display: flex;
+  align-items: center;
+  padding: var(--padding-0) var(--padding-12);
+  box-sizing: border-box;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.merch {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  cursor: pointer;
+}
+.item-4,
+.item-6 {
+  height: var(--height-32);
+  border-radius: var(--br-4);
+  flex-shrink: 0;
+}
+.item-6 {
+  display: flex;
+  align-items: center;
+  padding: var(--padding-0) var(--padding-12);
+  box-sizing: border-box;
+}
+.item-4 {
+  width: 83px;
+  position: relative;
+  display: none;
+}
+.popular {
+  position: absolute;
+  top: 4px;
+  left: 12px;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 59px;
+}
+.item-5 {
+  height: var(--height-32);
+  width: 132px;
+  position: relative;
+  border-radius: var(--br-4);
+  display: none;
+  flex-shrink: 0;
+}
+.new-releases {
+  position: absolute;
+  top: 4px;
+  left: 12px;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 108px;
+}
+@media screen and (max-width: 750px) {
+  .vma-nominees {
+    font-size: 27px;
+    line-height: var(--lh-30);
+  }
+  .kiss-all-the-container,
+  .music-fashion-film,
+  .petal,
+  .short-n-sweet {
+    font-size: var(--fs-26);
+    line-height: var(--lh-26);
+  }
+  .playlist-section-title {
+    font-size: 27px;
+    line-height: var(--lh-30);
+  }
+}
+@media screen and (max-width: 450px) {
+  .ariana-grande,
+  .sabrina-carpenter,
+  .taylor-swift {
+    font-size: var(--fs-16);
+    line-height: var(--lh-24);
+  }
+  .vma-nominees {
+    font-size: var(--fs-20);
+    line-height: var(--lh-22);
+  }
+  .kiss-all-the-container,
+  .music-fashion-film,
+  .petal,
+  .short-n-sweet {
+    font-size: var(--fs-19);
+    line-height: var(--lh-19);
+  }
+  .playlist-section-title {
+    font-size: var(--fs-20);
+    line-height: var(--lh-22);
+  }
+  .title3 {
+    font-size: var(--fs-16);
+    line-height: var(--lh-24);
+  }
+}
