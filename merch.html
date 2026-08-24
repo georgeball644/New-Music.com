@@ -5,20 +5,30 @@
     <meta name="viewport" content="initial-scale=1, width=device-width" />
     <link rel="stylesheet" href="https://googleapis.com" />
     <style>
-      body { margin: 0; background-color: #000; color: #fff; font-family: 'Inter', sans-serif; }
-      .merch { display: flex; min-height: 100vh; }
+      /* Embedded color blocks and structural boundaries */
+      body { margin: 0; background-color: #000000 !important; color: #ffffff !important; font-family: 'Inter', sans-serif; }
+      .merch { display: flex; min-height: 100vh; background-color: #000000; }
+      
+      /* Navigation column and custom button arrays */
       .sidebar { width: 240px; background-color: #121212; padding: 24px; position: fixed; height: 100vh; box-sizing: border-box; border-right: 1px solid #282828; }
-      .title { font-size: 20px; font-weight: 600; margin-bottom: 24px; }
+      .title { font-size: 20px; font-weight: 600; margin-bottom: 24px; color: #fff; }
       .menu-item2 { background: #282828; border: none; color: #fff; padding: 10px 16px; border-radius: 8px; text-align: left; width: 100%; cursor: pointer; }
+      
+      /* Main grid frame viewport spacing */
       .main-content { margin-left: 240px; padding: 40px; width: calc(100% - 240px); box-sizing: border-box; }
       .top-header-row { display: flex; align-items: center; margin-bottom: 32px; }
       .large-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 24px; width: 100%; }
+      
+      /* Product layout slots and active image tags */
       .card { background-color: #181818; border-radius: 8px; padding: 16px; display: flex; flex-direction: column; gap: 12px; }
-      .playlist-cover-image { width: 100%; aspect-ratio: 1/1; object-fit: cover; border-radius: 6px; }
+      .playlist-cover-image { width: 100% !important; height: auto !important; aspect-ratio: 1/1; object-fit: cover; border-radius: 6px; display: block !important; }
+      h3 { margin: 0; font-size: 16px; color: #fff; }
+      
+      /* Menu list selector configurations */
       .segmented-control { margin-left: auto; }
       .segmented-control2 { display: flex; background-color: #181818; padding: 4px; border-radius: 8px; gap: 4px; }
       .item-1, .item-3, .item-6 { padding: 6px 16px; border-radius: 6px; color: #b3b3b3; cursor: pointer; font-size: 14px; }
-      .item-3 { background-color: #fff; color: #000; font-weight: 600; }
+      .item-3 { background-color: #ffffff; color: #000000; font-weight: 600; }
     </style>
   </head>
   <body>
@@ -31,9 +41,9 @@
       </section>
       <main class="main-content">
         <div class="top-header-row">
-          <div class="title3">
-            <h1 style="margin:0;">Official Merchandise Store</h1>
-            <div style="color:#b3b3b3; margin-top:4px;">Shop Limited Vinyls & Music Products</div>
+          <div>
+            <h1 style="margin:0; font-size: 28px;">Official Merchandise Store</h1>
+            <div style="color:#b3b3b3; margin-top:4px; font-size: 14px;">Shop Limited Vinyls & Music Products</div>
           </div>
           <div class="segmented-control">
             <div class="segmented-control2">
