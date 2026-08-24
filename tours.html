@@ -3,35 +3,45 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
-    <link rel="stylesheet" href="./global.css" />
-    <link rel="stylesheet" href="./index.css" />
     <link rel="stylesheet" href="https://googleapis.com" />
     <style>
-      .playlist-cover-image { object-fit: cover; border-radius: 8px; }
-      #musicTabBtn, #merchTabBtn, #sidebarHome, #sidebarLogo { cursor: pointer; }
+      body { margin: 0; background-color: #000; color: #fff; font-family: 'Inter', sans-serif; }
+      .tour { display: flex; min-height: 100vh; }
+      .sidebar { width: 240px; background-color: #121212; padding: 24px; position: fixed; height: 100vh; box-sizing: border-box; border-right: 1px solid #282828; }
+      .title { font-size: 20px; font-weight: 600; margin-bottom: 24px; }
+      .menu-item2 { background: #282828; border: none; color: #fff; padding: 10px 16px; border-radius: 8px; text-align: left; width: 100%; cursor: pointer; }
+      .main-content { margin-left: 240px; padding: 40px; width: calc(100% - 240px); box-sizing: border-box; }
+      .header-row { display: flex; align-items: center; margin-bottom: 32px; }
+      .large-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 24px; width: 100%; }
+      .card { background-color: #181818; border-radius: 8px; padding: 16px; display: flex; flex-direction: column; gap: 12px; }
+      .playlist-cover-image { width: 100%; aspect-ratio: 1/1; object-fit: cover; border-radius: 6px; }
+      .navigation { margin-left: auto; }
+      .segmented-control2 { display: flex; background-color: #181818; padding: 4px; border-radius: 8px; gap: 4px; }
+      .item-1, .item-3, .item-6 { padding: 6px 16px; border-radius: 6px; color: #b3b3b3; cursor: pointer; font-size: 14px; }
+      .item-6 { background-color: #fff; color: #000; font-weight: 600; }
     </style>
   </head>
   <body>
     <div class="tour">
       <section class="sidebar">
-        <h3 class="title" id="sidebarLogo">New-Music.com</h3>
+        <h3 class="title" id="sidebarLogo" style="cursor: pointer;">New-Music.com</h3>
         <div class="list">
-          <button class="menu-item2" id="sidebarHome"><div class="home">Home</div></button>
+          <button class="menu-item2" id="sidebarHome">Home</button>
         </div>
       </section>
       <main class="main-content">
         <section class="main-content2">
           <div class="header-row">
             <div class="title3">
-              <h1 class="playlist-section-title">Upcoming Live Tour Dates</h1>
-              <div class="releases-24th-of">Book Tickets & Concert Venues</div>
+              <h1 style="margin:0;">Upcoming Live Tour Dates</h1>
+              <div style="color:#b3b3b3; margin-top:4px;">Book Tickets & Concert Venues</div>
             </div>
             <div class="navigation">
               <div class="segmented-control">
                 <nav class="segmented-control2">
-                  <div class="item-1" id="musicTabBtn"><div class="music">Music</div></div>
-                  <div class="item-3" id="merchTabBtn"><div class="music">Merch</div></div>
-                  <div class="item-6" style="background-color: var(--color-white);"><div class="tours">Tours</div></div>
+                  <div class="item-1" id="musicTabBtn">Music</div>
+                  <div class="item-3" id="merchTabBtn">Merch</div>
+                  <div class="item-6">Tours</div>
                 </nav>
               </div>
             </div>
@@ -39,11 +49,11 @@
           <section class="large-grid">
             <div class="card">
               <img class="playlist-cover-image" src="https://wikimedia.org_–_Kiss_All_the_Time._Disco%2C_Occasionally_%28album_cover%29.png" />
-              <div class="copy"><h3 class="ariana-grande">London O2 Arena - July 24</h3></div>
+              <div class="copy"><h3>London O2 Arena — July 24</h3></div>
             </div>
             <div class="card">
               <img class="playlist-cover-image" src="https://wikimedia.org" />
-              <div class="copy"><h3 class="ariana-grande">Manchester AO Arena - August 12</h3></div>
+              <div class="copy"><h3>Manchester AO Arena — August 12</h3></div>
             </div>
           </section>
         </section>
